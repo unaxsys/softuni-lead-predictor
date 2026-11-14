@@ -1,5 +1,56 @@
-# LeadPredictor — SoftUni AI Programming Fundamentals
+# LeadPredictor · SoftUni Programming Fundamentals with AI
 
-Public repository for the practical exam project: an interactive marketing funnel calculator.
+Интерактивен калкулатор за прогноза на маркетингова кампания, разработен по задачата от практическия изпит на SoftUni AI.
 
-The calculator follows the three formulas in the exam and will be developed via feature branches and pull requests.
+**Публичен GitHub:** https://github.com/unaxsys/softuni-lead-predictor
+
+## Какво прави
+
+- Изчислява нужните **клиенти**, **лийдове** и **контакти** за зададен целеви оборот и средна стойност на поръчката.
+- Дава месечен план в интерактивна графика и визуализира конверсиите.
+- Позволява промяна на бюджет, конверсии, начална/крайна дата, език и валута.
+- Работи на компютър и телефон; не използва външни библиотеки, регистрации или API.
+
+## Формули от условието
+
+```text
+Клиенти = ceil(Целеви оборот / Средна стойност на поръчката)
+Потенциални клиенти (leads) = ceil(Клиенти × 100 / Lead Response Rate)
+Контакти (prospects) = ceil(Потенциални клиенти × 100 / Prospect Response Rate)
+```
+
+Използва се закръгляване **нагоре** към цели хора. При 0% конверсия с положителна цел няма крайно решение, което е обозначено в интерфейса.
+
+## Стартиране
+
+Изисква Python 3 или произволен локален уеб сървър:
+
+```bash
+python3 -m http.server 8080
+```
+
+Отворете `http://localhost:8080`. За unit тестовете:
+
+```bash
+npm test
+```
+
+## Публикуване в Netlify
+
+Netlify → Add new project → Import an existing project → GitHub → изберете това публично хранилище. Build command: *оставете празно*. Publish directory: `.`. При обикновено качване с Drag & Drop може да качите съдържанието на проекта (без `.git`).
+
+## Изпитни изисквания
+
+- [x] Функционално приложение по образец, с три изчисления
+- [x] Адаптивен изглед и интерактивна графика
+- [x] Автоматизирани тестове
+- [ ] Публично GitHub хранилище
+- [ ] Поне 5 смислени commit-а чрез 5 pull request-а и 5 допълнителни branch-а
+- [ ] Поне един reverted commit
+- [ ] Онлайн Netlify адрес
+
+Чекбоксовете за GitHub и Netlify се отбелязват **само след проверка**; локалната Git история не се представя като pull requests.
+
+## Предаване
+
+След успешно публикуване добавете адресите и доказателствата към `SUBMISSION.md`, направете документа достъпен за преглед и го проверете в инкогнито прозорец, както изисква условието.
