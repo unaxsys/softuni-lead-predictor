@@ -8,11 +8,15 @@
 
 **Pull requests:** https://github.com/unaxsys/softuni-lead-predictor/pulls?q=is%3Apr+is%3Amerged
 
-**Reverted commit:** [добавете URL към revert commit]
+**Reverted commit:** https://github.com/unaxsys/softuni-lead-predictor/commit/3abc44f6f87fcb22e10d72df99a9eb9d70fdc151
+
+**Примерни PR:** https://github.com/unaxsys/softuni-lead-predictor/pull/1, https://github.com/unaxsys/softuni-lead-predictor/pull/2, https://github.com/unaxsys/softuni-lead-predictor/pull/3, https://github.com/unaxsys/softuni-lead-predictor/pull/4, https://github.com/unaxsys/softuni-lead-predictor/pull/5, https://github.com/unaxsys/softuni-lead-predictor/pull/6, https://github.com/unaxsys/softuni-lead-predictor/pull/7
 
 **Достъп до документ с решението:** [добавете публичен URL; тествайте в инкогнито]
 
-**Username:** [попълнете от профила си]
+**GitHub username:** unaxsys
+
+**SoftUni username:** [попълнете от профила си]
 
 **Email:** [попълнете имейла за SoftUni]
 
