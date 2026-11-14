@@ -83,7 +83,7 @@ h3 { font-size: 12px; font-weight: 670; }
 .chart { flex: 1; display: flex; flex-direction: column; justify-content: space-evenly; gap: 6px; min-height: 275px; position: relative; padding: 10px 8px 19px 68px; background-image: linear-gradient(to right, transparent calc(100% - 1px), rgba(141,168,203,.13) calc(100% - 1px)); background-size: 25% 100%; background-repeat: repeat-x; background-position: left 0; }
 .chart::before { content: ''; position: absolute; width: 1px; left: 68px; bottom: 22px; top: 6px; background: #41536b; }
 .chart-row { position: relative; height: 28px; min-height: 18px; display: flex; align-items: center; }
-.chart-row .month-label { position: absolute; right: calc(100% + 12px); width: 76px; top: 50%; transform: translateY(-50%); font-size: 14px; font-weight: 600; text-align: right; color: #94a7be; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.chart-row .month-label { position: absolute; right: calc(100% + 12px); width: 76px; top: 50%; transform: translateY(-50%); font-size: 10px; font-weight: 600; text-align: right; color: #94a7be; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .bar-background { height: 19px; width: 100%; background: rgba(106,129,167,.12); border-radius: 3px; overflow: visible; display: flex; align-items: center; position: relative; }
 .chart-bar { position: relative; height: 100%; min-width: 2px; border-radius: 3px; transition: width .3s cubic-bezier(.18,.67,.39,.99); background: linear-gradient(90deg, #556a96 0%, #7f9ef5 100%); box-shadow: 0 0 15px rgba(84,118,213,.12); }
 .chart-bar::after { content: ''; position: absolute; pointer-events: none; left: 0; top: 0; bottom: 0; width: 100%; border-radius: 3px; box-shadow: inset 0 1px rgba(255,255,255,.15); }
