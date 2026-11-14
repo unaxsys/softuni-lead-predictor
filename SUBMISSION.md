@@ -4,7 +4,7 @@
 
 **GitHub (публичен):** https://github.com/unaxsys/softuni-lead-predictor
 
-**Netlify (работеща версия):** [добавете URL след публикуване]
+**Netlify (публична работеща версия):** https://jazzy-pika-75bce0.netlify.app
 
 **Pull requests:** https://github.com/unaxsys/softuni-lead-predictor/pulls?q=is%3Apr+is%3Amerged
 
@@ -12,7 +12,9 @@
 
 **Примерни PR:** https://github.com/unaxsys/softuni-lead-predictor/pull/1, https://github.com/unaxsys/softuni-lead-predictor/pull/2, https://github.com/unaxsys/softuni-lead-predictor/pull/3, https://github.com/unaxsys/softuni-lead-predictor/pull/4, https://github.com/unaxsys/softuni-lead-predictor/pull/5, https://github.com/unaxsys/softuni-lead-predictor/pull/6, https://github.com/unaxsys/softuni-lead-predictor/pull/7
 
-**Достъп до документ с решението:** [добавете публичен URL; тествайте в инкогнито]
+**Публично описание и доказателства:** https://github.com/unaxsys/softuni-lead-predictor/blob/main/SUBMISSION.md
+
+**Важно за предаване:** ако формулярът на SoftUni изисква отделен документ, споделете него с проверяващите и проверете връзката в инкогнито прозорец.
 
 **GitHub username:** unaxsys
 

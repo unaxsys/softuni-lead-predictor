@@ -35,9 +35,11 @@ python3 -m http.server 8080
 npm test
 ```
 
-## Публикуване в Netlify
+## Онлайн версия (Netlify)
 
-Netlify → Add new project → Import an existing project → GitHub → изберете това публично хранилище. Build command: *оставете празно*. Publish directory: `.`. При обикновено качване с Drag & Drop може да качите съдържанието на проекта (без `.git`).
+**Публично приложение:** https://jazzy-pika-75bce0.netlify.app
+
+Публичният HTTPS адрес е проверен с HTTP 200 на 14.11.2026 г. За автоматични актуализации при промяна на `main` Netlify трябва да е свързан към GitHub хранилището (build command: празно; publish directory: `.`). Самата публична достъпност не доказва тази връзка.
 
 ## Изпитни изисквания
 
@@ -47,10 +49,10 @@ Netlify → Add new project → Import an existing project → GitHub → изб
 - [x] Публично GitHub хранилище
 - [x] Поне 5 смислени commit-а чрез реални pull request-и и 5+ допълнителни branch-а
 - [x] Поне един reverted commit
-- [ ] Онлайн Netlify адрес
+- [x] Онлайн Netlify адрес
 
-GitHub изискванията са проверени чрез реалните merged PR #1–#7 и отделен [reverted commit](https://github.com/unaxsys/softuni-lead-predictor/commit/3abc44f6f87fcb22e10d72df99a9eb9d70fdc151). Netlify остава непубликуван, докато не се потвърди публичен адрес.
+GitHub изискванията са проверени чрез 8 реални merged PR #1–#8, поне осем допълнителни клона и [reverted commit](https://github.com/unaxsys/softuni-lead-predictor/commit/3abc44f6f87fcb22e10d72df99a9eb9d70fdc151). За Netlify е потвърдена публична достъпност без логин.
 
 ## Предаване
 
-След успешно публикуване добавете адресите и доказателствата към `SUBMISSION.md`, направете документа достъпен за преглед и го проверете в инкогнито прозорец, както изисква условието.
+Адресите и доказателствата са в [SUBMISSION.md](SUBMISSION.md). За предаване в SoftUni попълнете изисканите лични данни в собствения документ и се уверете, че той е достъпен за проверяващите, като отворите връзката в инкогнито прозорец.
